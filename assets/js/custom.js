@@ -79,7 +79,7 @@
 			//landing crossfaded images
 			/*"https://thumbs.gfycat.com/IcyLimpingGorilla-size_restricted.gif"*/
 			var images = [
-			  "https://thumbs.gfycat.com/IcyLimpingGorilla-size_restricted.gif"
+			  "assets/images/test.gif"
 			];
 			
 			var $bg = $("#home"),

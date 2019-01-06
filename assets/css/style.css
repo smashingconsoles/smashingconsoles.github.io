@@ -448,6 +448,16 @@ textarea.form-control {
     z-index: 0;
 }
 
+.home-background {
+    background-image: url("../images/logo80s.png");
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+
 .intro {
 	position: absolute;
 	width: 100%;
