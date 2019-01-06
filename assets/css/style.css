@@ -656,7 +656,6 @@ textarea.form-control {
 	border: 0;
 	border-radius: 0;
 	margin: 0;
-	text-transform: uppercase;
 	font-family: OutrunFutureBold;
 }
 
@@ -669,8 +668,8 @@ textarea.form-control {
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-nav > li > a,
 .navbar-custom .navbar-nav .dropdown-menu > li > a {
-	font-size: 11px;
-	letter-spacing: 3px;
+	font-size: 16px;
+	letter-spacing: 0px;
 	color: #000000;
 }
 
