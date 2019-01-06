@@ -10,7 +10,7 @@ body {
 }
 
 temp_body{
-	background-color: #222;
+	background-color: #000000;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
@@ -80,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
 	text-transform: uppercase;
 	letter-spacing: 5px;
 	margin: 5px 0 5px;
-	color: #222;
+	color: #000000;
 }
 
 h2 {
@@ -365,7 +365,7 @@ textarea.form-control {
     text-align: center;
 }
 .calltoaction {
-	background-color: #222;
+	background-color: #000000;
 	background-repeat: no-repeat;
 	background-position: 0 0;
 	-webkit-background-size: cover;
@@ -412,7 +412,7 @@ textarea.form-control {
 /* ---------------------------------------------- */
 
 #home {
-	background-color: #222;
+	background-color: #000000;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
@@ -424,7 +424,7 @@ textarea.form-control {
 }
 
 .temp_home {
-	background-color: #222;
+	background-color: #000000;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
@@ -440,16 +440,6 @@ textarea.form-control {
     background-color: rgba(44, 62, 80, 0.3);
     background-image: url("../images/pattern.png");
     background-repeat: repeat;
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: 0;
-}
-
-.home-background {
-    background-image: url("../images/logo80s.png");
     height: 100%;
     left: 0;
     position: absolute;
@@ -511,7 +501,7 @@ textarea.form-control {
 .iconbox-icon {
 	margin: 0 0 15px;
 	font-size: 32px;
-	color: #222;
+	color: #000000;
 }
 
 .iconbox-title {
@@ -562,7 +552,7 @@ textarea.form-control {
 /* ---------------------------------------------- */
 
 #footer {
-	background: #222;
+	background: #000000;
 	text-align: center;
 	padding: 40px 0;
 	color: #FFF;
@@ -675,7 +665,7 @@ textarea.form-control {
 .navbar-custom .navbar-nav .dropdown-menu > li > a {
 	font-size: 11px;
 	letter-spacing: 3px;
-	color: #222;
+	color: #000000;
 }
 
 .navbar-custom .nav li.active,
@@ -710,7 +700,7 @@ textarea.form-control {
 }
 
 .navbar-custom .navbar-toggle .icon-bar {
-	background: #222;
+	background: #000000;
 }
 
 .navbar-nav > li > a, .navbar-brand {
@@ -856,7 +846,7 @@ textarea.form-control {
 	width: 100%; 
 	height: 100%; 
 	overflow: visible;	
-	background: #100f11 url("../images/preloader.gif") no-repeat center center;
+	background: #000000 url("../images/preloader.gif") no-repeat center center;
 }
 
 /* ---------------------------------------------- /*
