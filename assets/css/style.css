@@ -81,7 +81,6 @@ a,
 
 h1, h2, h3, h4, h5, h6 {
 	font: 700 40px/1.2 OutrunFutureBold, sans-serif;
-	text-transform: uppercase;
 	letter-spacing: 5px;
 	margin: 5px 0 5px;
 	color: #000000;
@@ -603,7 +602,7 @@ textarea.form-control {
 
 .social-links a:hover {
 	border: 1px solid rgba(255, 255, 255, 1.0);
-	color: rgba(255, 255, 255, 1.0);
+	background-image: linear-gradient(rgba(62,222,255,0.5), rgba(225,73,213,0.5));
 }
 
 
@@ -650,8 +649,6 @@ textarea.form-control {
 	opacity: 0.97;
 }
 
-
-
 .navbar-custom {
 	border: 0;
 	border-radius: 0;
@@ -679,7 +676,9 @@ textarea.form-control {
 .navbar-custom .navbar-nav > li.active a {
 	background: none;
 	outline: 0;
-	color: #E7746F;
+	background: -webkit-linear-gradient(#41ebff, #e149d5);
+	  -webkit-background-clip: text;
+	  -webkit-text-fill-color: transparent;
 }
 
 .navbar-custom .navbar-brand {
