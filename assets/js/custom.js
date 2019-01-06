@@ -122,9 +122,9 @@
 		var $pf1 = $(".pfimage1");
 		var $pf2 = $(".pfimage2");
 		var $pf3 = $(".pfimage3");
-		$pf1.css({backgroundImage : "url(assets/images/sides2.gif)"});
-		$pf2.css({backgroundImage : "url(assets/images/sides3.gif)"});
-		$pf3.css({backgroundImage : "url(assets/images/sides3.gif)"});
+		$pf1.css({backgroundImage : "url(assets/images/sides1.gif)"});
+		$pf2.css({backgroundImage : "url(assets/images/sides2.gif)"});
+		$pf3.css({backgroundImage : "url(assets/images/sides2.gif)"});
 		
 		// parallax
 		if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
