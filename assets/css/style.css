@@ -1,6 +1,10 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,300,500,700,800);
 @import url(http://fonts.googleapis.com/css?family=Lobster);
 
+@font-face {
+src: url("../fonts/OutrunFutureBold.otf");
+font-family: OutrunFutureBold;
+}
 
 body {
 	font: 300 14px/1.8 'Raleway', sans-serif;
@@ -76,7 +80,7 @@ a,
 /* ---------------------------------------------- */
 
 h1, h2, h3, h4, h5, h6 {
-	font: 700 40px/1.2 Raleway, sans-serif;
+	font: 700 40px/1.2 OutrunFutureBold, sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 5px;
 	margin: 5px 0 5px;
@@ -589,17 +593,17 @@ textarea.form-control {
 	display: block;
 	line-height: 35px;
 	text-align: center;
-	border: 1px solid rgba(255, 255, 255, .1);
+	border: 1px solid rgba(255, 255, 255, .4);
 	-webkit-border-radius: 3px;
 	   -moz-border-radius: 3px;
 			border-radius: 3px;
 	font-size: 14px;
-	color: rgba(255, 255, 255, .2);
+	color: rgba(255, 255, 255, .4);
 }
 
 .social-links a:hover {
-	border: 1px solid rgba(255, 255, 255, .5);
-	color: rgba(255, 255, 255, .8);
+	border: 1px solid rgba(255, 255, 255, 1.0);
+	color: rgba(255, 255, 255, 1.0);
 }
 
 
@@ -621,17 +625,17 @@ textarea.form-control {
 	display: block;
 	line-height: 29px;
 	text-align: center;
-	border: 1px solid rgba(0, 0, 0, .1);
+	border: 1px solid rgba(0, 0, 0, .4);
 	-webkit-border-radius: 3px;
 	   -moz-border-radius: 3px;
 			border-radius: 3px;
 	font-size: 14px;
-	color: rgba(255, 255, 255, .6);
+	color: rgba(255, 255, 255, .4);
 }
 
 .social-links-alt a:hover {
-	border: 1px solid rgba(255, 255, 255, .5);
-	color: rgba(255, 255, 255, .8);
+	border: 1px solid rgba(255, 255, 255, 1.0);
+	color: rgba(255, 255, 255, 1.0);
 }
 
 /* ---------------------------------------------- /*
@@ -646,12 +650,14 @@ textarea.form-control {
 	opacity: 0.97;
 }
 
+
+
 .navbar-custom {
 	border: 0;
 	border-radius: 0;
 	margin: 0;
 	text-transform: uppercase;
-	font-family: Raleway, sans-serif;
+	font-family: OutrunFutureBold;
 }
 
 .navbar-custom,
@@ -680,7 +686,7 @@ textarea.form-control {
 .navbar-custom .navbar-brand {
 	font-weight: 500;
 	font-size: 22px;
-    font-family: Raleway, "Verdana", Geneva, sans-serif;
+    font-family: OutrunFutureBold, "Verdana", Geneva, sans-serif;
 }
 
 .navbar-custom .dropdown-menu {
