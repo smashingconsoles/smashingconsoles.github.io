@@ -602,6 +602,7 @@ textarea.form-control {
 
 .social-links a:hover {
 	border: 1px solid rgba(255, 255, 255, 1.0);
+	color: rgba(255, 255, 255, 1.0);
 	background-image: linear-gradient(rgba(62,222,255,0.5), rgba(225,73,213,0.5));
 }
 
