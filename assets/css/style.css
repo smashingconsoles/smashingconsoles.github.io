@@ -647,7 +647,7 @@ textarea.form-control {
 	position: relative;
 	width: 100%;
 	z-index: 998;
-	opacity: 0.97;
+	opacity: 0.98;
 }
 
 .navbar-custom {
@@ -725,7 +725,7 @@ textarea.form-control {
 	background: #ffffff;
 	height: 36px;
 	bottom: 0;
-	opacity: 0.9;
+	opacity: 0.98;
 	overflow: hidden;
 }
 
